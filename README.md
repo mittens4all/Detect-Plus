@@ -16,7 +16,7 @@ You can also target players using the scores as part of the target selector argu
 ```js
 execute as @a[scores={detect_air=1}] at @s run say you are holding air!
 
-execute as @a[scores={detect_empty=1}] at @s run you have no items in your inventory!
+execute as @a[scores={detect_empty=1}] at @s run say you have no items in your inventory!
 
 execute as @a[scores={detect_slot=1}] at @s run say you have selected the first hotbar slot!
 ```
